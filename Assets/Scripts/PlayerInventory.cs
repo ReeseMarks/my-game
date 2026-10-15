@@ -6,7 +6,7 @@ public class PlayerInventory : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Heavy"))
+        if(other.CompareTag("SadCoin"))
         {
             hudManager.CollectSadGuy();
             Debug.Log("Sad Guy Collected");

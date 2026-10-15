@@ -6,10 +6,10 @@ public class PlayerInteractAudio : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Heavy"))
+        if(other.CompareTag("SadCoin"))
         {
             audioSource.Play();
-            Debug.Log("Heavy sound played");
+            Debug.Log("Sad Coin sound played");
         }
     }
 }

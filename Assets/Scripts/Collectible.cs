@@ -31,7 +31,7 @@ public class Collectible : MonoBehaviour
             return;
         }
 
-        if (pickup.CompareTag("Boost"))
+        if (pickup.CompareTag("SadCoin"))
         {
             PlayerMovement playerMove = other.GetComponent<PlayerMovement>();
             if (playerMove != null)

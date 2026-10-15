@@ -12,4 +12,9 @@ public class GameMenu : MonoBehaviour
     {
         SceneManager.LoadScene("levelTwo");
     }
+    public void TryAgain()
+    {
+        SceneManager.LoadScene("game");
+        Time.timeScale = 1f;
+    }
 }

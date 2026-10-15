@@ -25,7 +25,7 @@ public class PlayerAudio : MonoBehaviour
             PlaySound(2);
             Debug.Log("Coffee sound played");
         }
-        else if(other.CompareTag("Heavy"))
+        else if(other.CompareTag("SadCoin"))
         {
             PlaySound(1);
             Debug.Log("Heavy sound played");
