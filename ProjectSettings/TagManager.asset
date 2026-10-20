@@ -8,6 +8,8 @@ TagManager:
   - Boost
   - Heavy
   - SadCoin
+  - Enemy
+  - Object
   layers:
   - Default
   - TransparentFX
@@ -15,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - Obstacle
   - 
   - 
   - 

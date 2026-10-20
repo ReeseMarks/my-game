@@ -60,7 +60,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("SadCoin"))
+        if(other.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(5);
         }

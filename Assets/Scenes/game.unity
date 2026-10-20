@@ -2943,7 +2943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   hudManager: {fileID: 225561524}
-  sadGuyGoal: 1
+  sadGuyGoal: 2
   gameWon: 0
   victoryPanel: {fileID: 954269847}
 --- !u!4 &1800399800
